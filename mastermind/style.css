@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.flexer {
+  display: flex;
+}
+
+.modal {
+  display:flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  
+}
+
+.modal-message {
+  width: 40%;
+  margin: 30% auto;
+}
+
+.board {
+  width: 30%;
+  min-width: 450px;
+  height: 96vh;
+  margin: 2vh auto;
+  border-radius:15px;
+  background: #b3ccff;
+  box-shadow: 10px 10px 15px black;
+}
+
+/******  answer-container  ******/
+.answer-container {
+  width: 100%;
+  height: 10%;
+  padding-top: 2%;
+}
+.answer-box {
+  width: 70%;
+  height: 100%;
+}
+.answer {
+  width: 80%;
+  height: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  background: linear-gradient(#444444, #292929);
+  box-shadow: 2px 0px 4px white;
+}
+.button-container {
+  width: 30%;
+  height: 100%;
+}
+.submit-btn {
+  width: 80%;
+  height: 80%;
+  background: rgb(218, 71, 71);
+  border-radius:15px;
+  margin: auto;
+  text-align: center;
+  line-height: 200%;
+  box-shadow: 2px 2px 4px white;
+}
+.text {
+  margin: 0 auto;
+}
+
+/******  guess-container  ******/
+.guess-container {
+  width: 100%;
+  height: 80%;
+  padding-left:14px;
+}
+.guess-row {
+  box-sizing: border-box;
+  height: 10%;
+  width: 100%;
+  padding-bottom:5px;
+
+}
+.guess-pegs {
+  height: 100%;
+  width: 70%;
+  padding-left: 20px;
+}
+.guess-peg {
+  width: 22%;
+  height: 100%;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 2%;
+  background: linear-gradient(#b3ccff, rgba(77, 107, 163, 0.5));
+
+}
+.shadow{
+-webkit-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.4);
+box-shadow: inset 10px 10px 5px 0px rgba(0,0,0,0.4);
+}
+.grade-pegs {
+  height: 100%;
+  width: 25%;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}
+.grade-peg {
+  box-sizing: border-box;
+  width: 29%;
+  height: 48%;
+  border: 1px solid white;
+  margin-left: 5%;
+  border-radius: 50%;
+}
+
+/******  selection-container  ******/
+.selection-container {
+  width: 62%;
+  margin: 10px 0px 0px 75px;
+  padding: 7px 7px 7px 7px;
+  border: 1px solid black;
+}
+.selector-outer {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 3.25px;
+  border: 1px solid white;
+}
+.selector-outer:hover {
+  border: 1px solid white;
+}
+.selector-inner {
+  box-sizing: border-box;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 18% 18% 22% 22%;
+}
+.selector-inner:hover {
+  border: 1px solid white;
+}
+.red {
+  background-color: rgb(201, 60, 60);
+}
+.green {
+   background-color: rgb(37, 112, 37);
+ }
+ .yellow {
+   background-color: rgb(202, 202, 39);
+ }
+ .black {
+   background-color: black;
+ }
+ .white {
+   background-color: white;
+ }
+ .brown {
+   background-color: rgb(92, 41, 41);
+ }
